@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Devansh Portfolio</title>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="index.css">
+
+  <!-- Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+  <!-- AOS Animation -->
+  <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
+</head>
+
+<body>
+
+<!-- Navbar -->
+<nav>
+  <h2 class="logo">Portfolio</h2>
+  <ul>
+    <li><a href="#home">Home</a></li>
+    <li><a href="#about">About</a></li>
+    <li><a href="#skills">Skills</a></li>
+    <li><a href="#projects">Projects</a></li>
+    <li><a href="#resume">Resume</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+</nav>
+
+<!-- Hero -->
+<section id="home" class="hero">
+  <div class="hero-left" data-aos="fade-right">
+    <h1>Hello, I'm <span>Devansh Singh</span></h1>
+    <p>Web Developer | Problem Solver</p>
+
+    <button onclick="scrollToSection('projects')">View Projects</button>
+  </div>
+
+  <div class="hero-right" data-aos="fade-left">
+    <img src="assets/devansh.webp">
+  </div>
+</section>
+
+<!-- About -->
+<section id="about" data-aos="fade-up">
+  <h2 data-aos="fade-up">About Me</h2>
+  <p data-aos="fade-up">Hi, I’m Devansh — a B.Tech graduate in Information Technology with a strong interest in full-stack web development.
+
+<p data-aos="fade-up">I build complete web applications, working on both frontend and backend. On the frontend, I use HTML, CSS, and JavaScript to create responsive, user-friendly, and visually clean interfaces. On the backend, I primarily work with Java, where I handle application logic, data processing, and building structured systems.</p>
+
+<p data-aos="fade-up">I also have a good foundation in C and Java, which helps me write efficient code and approach problems logically.</p>
+
+<p data-aos="fade-up">I’ve developed projects like a resume builder and a weather application, where I handled both UI design and backend functionality. I enjoy solving real-world problems through code and continuously improving my development skills.</p>
+
+<p data-aos="fade-up"> I’m currently looking for opportunities as a Frontend Developer or Software Engineer where I can contribute to real-world projects, strengthen my full-stack development skills, and grow in a professional environment.
+</p>
+</section>
+
+<!-- Skills -->
+<section id="skills">
+  <h2 data-aos="fade-up">My Skills</h2>
+
+  <div class="skills-container">
+    <div class="skill" data-aos="zoom-in"><i class="fab fa-html5"></i> HTML</div>
+    <div class="skill" data-aos="zoom-in"><i class="fab fa-css3"></i> CSS</div>
+    <div class="skill" data-aos="zoom-in"><i class="fab fa-js"></i> JS</div>
+    <div class="skill" data-aos="zoom-in"><i class="fab fa-python"></i> Python</div>
+    <div class="skill" data-aos="zoom-in"><i class="fab fa-git-alt"></i> Git</div>
+    <div class="skill" data-aos="zoom-in"><i class="fa-brands fa-java"></i> Java</div>
+    <div class="skill" data-aos="zoom-in"><i class="fa-solid fa-c"></i> </div>
+  </div>
+</section>
+
+<!-- Projects -->
+<section id="projects">
+  <h2 data-aos="fade-up">Projects</h2>
+
+  <div class="projects-container">
+
+    <div class="card" data-aos="fade-up">
+      <h3>Resume Builder</h3>
+      <p>Create resumes dynamically</p>
+    </div>
+
+    <div class="card" data-aos="fade-up">
+      <h3>Weather App</h3>
+      <p>Live weather using API</p>
+    </div>
+
+    <div class="card" data-aos="fade-up">
+      <h3>Portfolio</h3>
+      <p>Modern personal website</p>
+    </div>
+
+  </div>
+</section>
+
+<section id="resume" class="resume-section" data-aos="fade-up">
+  <h2>My Resume</h2>
+
+  <div class="resume-container" data-aos="fade-up">
+    <iframe src="assets/resume.pdf" class="resume-viewer"></iframe>
+
+    <a href="assets/resume.pdf" download class="btn-download"  data-aos="fade-up">
+      ⬇ Download Resume
+    </a>
+  </div>
+</section>
+
+<!-- Contact -->
+<section id="contact" data-aos="fade-up">
+  <h2>Contact Me</h2>
+  <p>Email: devanshsingh0115@gmail.com</p>
+  <p>Mobile No.: 9695524860</p>
+</section>
+
+<!-- JS -->
+<script src="index.js"></script>
+
+<!-- AOS -->
+<script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+
+</body>
+</html>

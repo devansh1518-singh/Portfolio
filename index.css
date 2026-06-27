@@ -278,7 +278,11 @@ h2 {
 }
 
 .card-link{
-  color: #aaa;
+  color: white;
+  
+}
+.card-link:hover{
+  color: red;
 }
 
 .card h3 {

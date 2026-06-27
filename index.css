@@ -277,6 +277,10 @@ h2 {
   transition: 0.3s;
 }
 
+.card-link{
+  color: #aaa;
+}
+
 .card h3 {
   margin-bottom: 10px;
 }

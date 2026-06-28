@@ -403,7 +403,7 @@ footer {
     flex-direction: column;
     text-align: center;
     justify-content: center;
-    min-height: auto;
+    min-height: 0;
     padding: 56px 20px 48px;
     gap: 28px;
   }
